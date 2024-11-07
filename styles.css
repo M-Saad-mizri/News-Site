@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light mode background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333; /* Light mode text color */
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+article {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 0 0 10px;
+}
+
+p {
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212; /* Dark mode background */
+  color: white; /* Dark mode text color */
+}
+
+.dark-mode h1 {
+  color: #fff; /* Light text for heading */
+}
+
+.dark-mode article {
+  background: #1e1e1e; /* Dark mode article background */
+  color: #fff; /* Dark mode article text color */
+  border: 1px solid #444; /* Dark mode article border */
+}
+
+.dark-mode p {
+  color: #bbb; /* Lighter text for paragraphs in dark mode */
+}
+
+.dark-mode button {
+  background-color: #444; /* Dark mode button background */
+  color: white; /* Dark mode button text color */
+}
+
+.dark-mode button:hover {
+  background-color: #555; /* Dark mode button hover */
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+
+.main button {
+  height: 50px;
+  margin-top: 10px;
+}
