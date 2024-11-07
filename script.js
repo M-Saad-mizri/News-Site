@@ -113,4 +113,4 @@ toggleButton.addEventListener("click", () => {
 });
 
 // Get user's location on load
-// getUserLocation();
+getUserLocation();
